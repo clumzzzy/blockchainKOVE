@@ -68,9 +68,9 @@ Insert gif or link to demo
 |14|549,755,813,888,000,000|31,497,291 years
 |15|8,796,093,022,208,000,000|503,956,662 years
 
-In the production bitcoin blockchain, block `458,091` has the hash digest
-`00000000000000000000011246f099d94f91628d71c9d75ad2f9a06e2beb7e92`. That's 21 zeros in a row!
-That one block would take this software approximately 8,454,989,768,407,765 years to mine.
+В блокчейне биткоина блок "458,091" имеет хэш-код
+`00000000000000000000011246f099d94f91628d71c9d75ad2f9a06e2beb7e92`. Это 21 ноль подряд!
+На добычу этого одного блока у майнера ушло бы примерно 8 454 989 768 407 765 лет.
 ## Authors
 
 - [@clumzzzy](https://www.github.com/clumzzzy)
