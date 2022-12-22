@@ -1,5 +1,5 @@
 
-# BlockchainKOVE
+# BlockchainSimulator
 
 Web-based реализация концепта работы блокчейн от сената.
 
