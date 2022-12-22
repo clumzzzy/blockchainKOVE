@@ -1,38 +1,81 @@
-# blockchainKOVE
 
-> Note: This is not my real contribution graph :laughing:
+# BlockchainKOVE
 
-Hi, I'm [Rishit Dagli](https://www.rishit.tech) a high school student and an AI enthusiast from 
-[Mumbai, India](https://www.google.com/maps/place/Rishit+Dagli/@19.2115497,72.8411235,15z/data=!4m5!3m4!1s0x0:0xf3ed3bb225394f3c!8m2!3d19.2115497!4d72.8411235) :india:
+Web-based реализация концепта работы блокчейн от сената.
 
-### My top 10 technologies
 
-|![](https://img.shields.io/badge/-Python-black?logo=python&style=plastic)|![](https://img.shields.io/badge/-TensorFlow-black?logo=tensorflow&style=plastic)|![](https://img.shields.io/badge/-GCP-black?logo=googlecloud&style=plastic)|![](https://img.shields.io/badge/-Azure-black?logo=microsoftazure&style=plastic)|![](https://img.shields.io/badge/-Kubernetes-black?logo=kubernetes&style=plastic)|
-|---|---|---|---|---|
-|![](https://img.shields.io/badge/-Android-black?logo=android&style=plastic)|![](https://img.shields.io/badge/-Javascript-black?logo=javascript&style=plastic)|![](https://img.shields.io/badge/-Node-black?logo=nodedotjs&style=plastic)|![](https://img.shields.io/badge/-C++-black?logo=cplusplus&style=plastic)|![](https://img.shields.io/badge/-Arduino-black?logo=arduino&style=plastic)|
+## Description
 
-### 📕 Latest Blog posts
-<!-- BLOG-POST-LIST:START -->
-- [How to Use GitHub Super Linter in Your Projects](https://medium.com/@rishit.dagli/how-to-use-github-super-linter-in-your-projects-25b35fade7fd?source=rss-e7d740ac1a25------2)
-- [Kubeflow Notebooks: ML Experimentation Made Easier — Part 2](https://medium.com/@rishit.dagli/kubeflow-notebooks-ml-experimentation-made-easier-part-2-117a45dec52c?source=rss-e7d740ac1a25------2)
-- [Kubeflow: Machine Learning on Kubernetes — Part 1](https://medium.com/@rishit.dagli/kubeflow-machine-learning-on-kubernetes-part-1-8f657115d0e9?source=rss-e7d740ac1a25------2)
-- [Skewness and Kurtosis — Positively Skewed and Negatively Skewed Distributions in Statistics…](https://medium.com/@rishit.dagli/skewness-and-kurtosis-positively-skewed-and-negatively-skewed-distributions-in-statistics-95515891439a?source=rss-e7d740ac1a25------2)
-- [How to Monitor Machine Learning Projects on Your Mobile Device](https://medium.com/@rishit.dagli/how-to-monitor-machine-learning-projects-on-your-mobile-device-9f9ed1f9e38b?source=rss-e7d740ac1a25------2)
-<!-- BLOG-POST-LIST:END -->
+Это простое введение в концепции, лежащие в основе блокчейна. Мы представляем идею неизменяемой бухгалтерской книги, используя интерактивную веб-демонстрацию.
 
-<!--- 
-### Tech communities
 
-|Organizer|Organizer|Mentor|
-|---------|---------|------|
-|<a href="https://kotlinmumbai.tech"><img src="https://github.com/Rishit-dagli/Rishit-dagli/blob/master/communities/kotlin_mumbai.png" height="100px"></a>|<a href="https://community.mozilla.org/groups/mozilla-mumbai/"><img src="https://github.com/Rishit-dagli/Rishit-dagli/blob/master/communities/mozilla_mumbai.png" height="100px"></a>|<a href="https://www.meetup.com/tfugmumbai/"><img src="https://github.com/Rishit-dagli/Rishit-dagli/blob/master/communities/tfug_mumbai.png" height="100px"></a>|
--->
+## FAQ
 
-[![Rishit's github stats](https://github-readme-stats.vercel.app/api?username=Rishit-dagli&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&count_private=true)](https://github.com/Rishit-dagli)
+#### Раздел Hash
 
-<!---
-If you like what I do and want me to build more such projects, maybe considering supporting me on PayPal or buying me a coffee :pleading_face:
+Позволяет генерировать hash на основе введенных в поле `Data` данных.
 
-<a href="http://paypal.me/alpadagli" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a> &nbsp;&nbsp;
-<a href="https://www.buymeacoffee.com/rishitdagli" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
--->
+#### Раздел Block
+
+Позволяет наглядно проследить за тем как подписываются блоки, как изменяется `Nonce` в зависимости от `Data`.
+
+#### Раздел Blockchain
+
+Показывает зависимость блоков друг от друга в цепи.
+
+#### Раздел Distributed
+
+Позволяет осознать принцип большинства в блокчейн.
+
+#### Раздел Tokens
+
+Отражает ключевую особенность блокчейна - защита данных благодаря неизменяемости, на примере финансовых операций.
+
+#### Раздел Coinbase
+
+Продолжение раздела `Tokens`, позволяющий учитывать наличие финансов у конкретных людей.
+
+
+## Demo
+
+Insert gif or link to demo
+
+## Optional Configuration
+Вы можете настроить количество нулей, требуемое демонстрацией, отредактировав первые две строки
+`public/javascripts/blockchain.js`.
+
+Поскольку в шестнадцатеричном значении содержится 16 возможных символов, каждый раз, когда вы увеличиваете сложность
+на единицу, вы усложняете головоломку в 16 раз.
+
+Если вы измените сложность выше 4, блоки будут отображаться как не добытые, потому что демонстрационные данные
+предполагают 4 нуля для подписанного блока. Например, на `http://localhost:3000/block ` страница
+со сложностью 6, первый работающий одноразовый номер - `8719932`, дающий хэш
+`000000669445c22167511857d8f3b822b331c3342f25dfdcb326e35c1a7aa267`.
+
+Вот некоторые оценки времени для различных пороговых значений.
+|digits|nonce|time estimate|
+|------|-------|-------------|
+|4|500,000|15 minutes
+|5|8,000,000|4 hours
+|6|128,000,000|3 days
+|7|2,048,000,000|a month
+|8|32,768,000,000|2 years
+|9|524,288,000,000|30 years
+|10|8,388,608,000,000|481 years
+|11|134,217,728,000,000|7,690 years
+|12|2,147,483,648,000,000|123,036 years
+|13|34,359,738,368,000,000|1,968,581 years
+|14|549,755,813,888,000,000|31,497,291 years
+|15|8,796,093,022,208,000,000|503,956,662 years
+
+In the production bitcoin blockchain, block `458,091` has the hash digest
+`00000000000000000000011246f099d94f91628d71c9d75ad2f9a06e2beb7e92`. That's 21 zeros in a row!
+That one block would take this software approximately 8,454,989,768,407,765 years to mine.
+## Authors
+
+- [@clumzzzy](https://www.github.com/clumzzzy)
+- [@khudysh](https://www.github.com/khudysh)
+- [@oganesik](https://www.github.com/oganesik)
+- [@v-golyadkin](https://www.github.com/v-golyadkin)
+- [@Karen-mad](https://www.github.com/Karen-mad)
+
