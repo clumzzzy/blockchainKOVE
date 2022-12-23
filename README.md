@@ -97,6 +97,7 @@ http://176.119.157.199:3000
 Это 21 ноль подряд!
 На добычу этого одного блока у майнера ушло бы примерно 8 454 989 768 407 765 лет.
 
+<a name="Authors"></a> 
 ## Authors :suspect:
 - [@clumzzzy](https://www.github.com/clumzzzy)
 - [@khudysh](https://www.github.com/khudysh)
