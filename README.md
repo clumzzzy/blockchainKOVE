@@ -46,9 +46,10 @@ node ./bin/www
 ```
 http://localhost:3000
 ```
-## Demo
+##Site
 
-Insert gif or link to demo
+http://176.119.157.199:3000
+
 ## Optional Configuration
 Вы можете настроить количество нулей, требуемое демонстрацией, отредактировав первые две строки
 `public/javascripts/blockchain.js`.
